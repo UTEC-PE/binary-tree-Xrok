@@ -1,5 +1,8 @@
 //insert , remove,pesos, 3 prints, iterator. 
 #define NODE_H
+
+#include <iostream>
+
 using namespace std;
 class node
 {
@@ -28,8 +31,8 @@ public:
 	}
 */
  };
-
-class tree
+// Y el iterador?
+class tree // Falta destructor, eliminar, y peso
 {
 	public:
 	node* root;
